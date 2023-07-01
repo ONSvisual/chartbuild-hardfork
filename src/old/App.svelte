@@ -16,7 +16,7 @@
   
 console.log(app)
   //import IndexText from './IndexText.svelte'
-  import Head from './Head.svelte'
+  import Head from '../old/Head.svelte'
   import { tsvParse, csvParse, tsvFormat, csvFormat } from 'd3-dsv'
   import * as d3 from 'd3'
   let tree,
@@ -92,7 +92,7 @@ console.log(app)
     ['0.357 => +0.4', '+.1f'],
   ]
 
-  import IndexText from './IndexText.svelte'
+  import IndexText from '../old/IndexText.svelte'
   import { each } from 'svelte/internal'
 
   let data = []

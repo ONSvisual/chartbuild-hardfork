@@ -5,7 +5,7 @@ import {
 //import IndexText from './IndexText.svelte'
 
 import {tsvParse, csvParse, tsvFormat,csvFormat} from 'd3-dsv';
-import IndexText from './IndexText.svelte'
+import IndexText from '../components/IndexText.sveltee'
 
 	let data = [];
 	let columns=[];
